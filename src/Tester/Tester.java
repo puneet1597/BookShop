@@ -129,9 +129,9 @@ public class Tester {
 					System.out.println("book: "+value.getTitle());
 					 price =price+value.getPrice();
 				}
-				for(Integer i:cart.values()) {
-					quantity = quantity+i;
-				}
+				//for(Integer i:cart.values()) {
+					//quantity = quantity+i;
+				//}
 			 
 			System.out.println("total price:" + price*quantity);
 			System.exit(0);
